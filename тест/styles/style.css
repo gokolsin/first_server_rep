@@ -1,0 +1,37 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+}
+
+.auth__input {
+    height: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.submit {
+    border: 0;
+    height: 30px;
+    border-radius: 3px;
+    background: rgb(148, 108, 0);
+    font-weight: 900;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.submit:hover {
+    opacity: 0.7;
+    scale: 0.99;
+}
+
+.hidden {
+    display: none;
+}
