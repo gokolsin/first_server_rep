@@ -8,7 +8,7 @@ copyArr.forEach(el => {
         try {
             navigator.clipboard.writeText(text);
         } catch (err) {
-            console.error('Ошибка при копировании: ', err);
+            console.log('Ошибка при копировании: ', err);
         }
     });
 })
